@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-// import Layout from '../components/layout'
+import Layout from '../components/layout'
 // import SEO from '../components/seo'
 
 const SecondPage = () => (
-  <React.Fragment>
+  <Layout>
     <Link to="/" className="back-btn">
       BACK
     </Link>
@@ -40,13 +40,7 @@ const SecondPage = () => (
         </p>
       </div>
     </div>
-  </React.Fragment>
-  // <Layout>
-  //   <SEO title="Page two" />
-  //   <h1>Hi from the second page</h1>
-  //   <p>Welcome to page 2</p>
-  //   <Link to="/">Go back to the homepage</Link>
-  // </Layout>
+  </Layout>
 )
 
 export default SecondPage
