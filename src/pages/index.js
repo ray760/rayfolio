@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
+import Resume from './docs/Ray-Robertson-Resume-2019.pdf'
 //import Image from '../components/image'
 // import SEO from '../components/seo'
 
@@ -28,7 +29,7 @@ const IndexPage = () => (
             </a>
           </span>
           <span className="slim-text">
-            <a href="http://www.rayfolio.com/docs/Ray-Robertson-Resume.pdf">
+            <a href={Resume} download>
               resume
             </a>
           </span>
