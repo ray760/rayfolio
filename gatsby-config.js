@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/`,
+  pathPrefix: `/rayfolio`,
   siteMetadata: {
     title: `Rayfolio.com | Ray Robertson`,
     description: `Ray Robertson Front End | UI Developer`,
