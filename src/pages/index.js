@@ -1,15 +1,22 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
+import RFVideo from '../components/RFVideo'
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faHome, faReply } from '@fortawesome/free-solid-svg-icons'
+
 import Layout from '../components/layout'
-import Resume from './docs/Ray-Robertson-Resume-2019.pdf'
+import Resume from '../docs/Ray-Robertson-Resume-2021.pdf'
 //import Image from '../components/image'
 // import SEO from '../components/seo'
 
+library.add(faHome, faReply)
+
 const IndexPage = () => (
   <Layout>
-    <div className="bg">
-      <div className="picture">
+    <main className="rf-container">
+      <div className="content">
         <span className="bold-text">ray robertson</span>
         <span className="slim-text">FRONTEND</span>
         <span className="bold-text dev">DEVELOPER</span>
@@ -35,7 +42,8 @@ const IndexPage = () => (
           </span>
         </div>
       </div>
-    </div>
+      <RFVideo />
+    </main>
   </Layout>
 )
 

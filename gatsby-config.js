@@ -1,11 +1,13 @@
 module.exports = {
-  pathPrefix: `/rayfolio`,
+  pathPrefix: `/`,
   siteMetadata: {
     title: `Rayfolio.com | Ray Robertson`,
     description: `Ray Robertson Front End | UI Developer`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-fontawesome-css`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
