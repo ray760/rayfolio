@@ -8,7 +8,7 @@ import Layout from '../components/layout'
 
 const SecondPage = () => (
   <Layout>
-    <Link className="back-btn" to="/">
+    <Link className="back-btn update" to="/">
       <FontAwesomeIcon icon="reply" />
       &nbsp; Back
     </Link>

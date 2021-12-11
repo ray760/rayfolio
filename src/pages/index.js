@@ -22,7 +22,9 @@ const IndexPage = () => (
         <span className="bold-text dev">DEVELOPER</span>
         <div className="links">
           <span className="slim-text">
-            <Link to="/about-me/">ABOUT</Link>
+            <Link className="update" to="/about-me/">
+              ABOUT
+            </Link>
           </span>
           <span className="bold-text">
             <a href="https://github.com/ray760?tab=repositories">GITHUB</a>
@@ -36,7 +38,7 @@ const IndexPage = () => (
             </a>
           </span>
           <span className="slim-text">
-            <a href={Resume} download>
+            <a className="here" href={Resume} download>
               resume
             </a>
           </span>
